@@ -1,3 +1,5 @@
+
+/* Variables que se utilizan para decorar toda la página web */
 :root{
     --very-light-pink: #C7C7C7;
     --text-input-field:#F7F7F7;
@@ -14,12 +16,22 @@ body{
     margin: 0;
     font-family: 'Quicksand', sans-serif;
 }
+
+
+/* por defecto para la versión desktop se elimina la visualización del icono
+de las líneas que despliega el menu de las categorias en mobile */
 .menu{
     display: none;
 }
+
+/* Se modifica el ancho del logo de YardSale de la página. */
+
 .logo{
     width: 100px;
 }
+
+/* Estilos aplicados sobre la listas de categorias */
+
 .navbar-left ul, .navbar-right ul{
     list-style: none;
     padding: 0;
@@ -28,18 +40,27 @@ body{
     align-items: center;
     height: 60px;
 }
+
+/* Estilos de la barra de navegación */
 nav{
     display: flex;
     justify-content: space-between;
     padding: 0 24px;
     border-bottom: 1px solid var(--very-light-pink);
 }
+
+/* Estilo aplicado a la parte izquierda del menu en flex */
 .navbar-left{
     display: flex;
 }
+
+/* Margen aplicado al navbar en su parte izquierda */
 .navbar-left ul{
     margin-left: 12px;
 }
+
+/* Estilos aplicados a cada una de las posibles categorias */
+
 .navbar-left ul li a, .navbar-right ul li a{
     text-decoration: none;
     color: var(--very-light-pink);
@@ -121,9 +142,61 @@ nav{
     margin-bottom: 20px;
     display: inline-block;
 }
+.containerInactive{
+    display: none;
+}
+
+.mobile-menu{
+    position: absolute;
+    top: 50px;
+    padding-left: 0px;
+    padding-right: 10px
+    
+}
+
+.mobile-menu ul{
+    
+    list-style: none;
+    padding: 0;
+    margin: 24px 0 0;
+}
+.mobile-menu ul:nth-child(1){
+    border-bottom: 1px solid var(--very-light-pink);
+}
+.mobile-menu ul li{
+    margin-bottom: 24px;
+}
+.mobile-menu a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    
+}
+.tituloCategoria{
+    color: red !important;
+}
+.mobile-menu .email{
+    font-size: var(--smallfont);
+    font-weight: 300;
+    
+}
+
+.sign-out{
+    color: var(--hospital-green) !important;
+    font-size: var(--smallfont);
+}
+
+.mobile-menu ul:nth-child(2){
+    margin-bottom: 50px;
+}
+
+.mobile-menu ul:nth-child(3) li:nth-child(1){
+    margin-bottom: 0px;
+}
 
 
-@media (max-width:640px){
+
+@media (max-width:793px){
     .menu{
         display: block;
     }
@@ -131,6 +204,16 @@ nav{
         display: none;
     }
     .navbar-email{
+        display: none;
+    }
+    .desktop-menu{
+        display: none;
+    }
+
+}
+
+@media (min-width:794px){
+    .mobile-menu{
         display: none;
     }
 }
