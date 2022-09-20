@@ -86,6 +86,7 @@ nav {
 
 .navbar-shopping-cart {
     position: relative;
+    cursor:pointer;
 }
 
 .navbar-shopping-cart div {
@@ -161,11 +162,14 @@ nav {
 }
 
 .mobile-menu {
+    height: 850px;
+    margin-left: -20px;
     background: var(--white);
     position: absolute;
     top: 50px;
     padding-left: 0px;
-    padding-right: 10px
+    padding-right: 240px
+    
 }
 
 .mobile-menu ul {
@@ -305,6 +309,65 @@ nav {
     font-size: var(--md);
     font-weight: bold;
     height: 50px;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 520px);
+    gap: 10px;
+    place-content: center;
+    padding-top: 25px;
+}
+.product-card{
+    width: 400px;
+}
+
+.product-card img{
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.product-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.product-info figure{
+    margin: 0;
+}
+.product-info figure img{
+    width: 40px;
+    height: 40px;
+}
+.product-info div p:nth-child(1){
+    font-weight: bolder;
+    font-size: var(--mediumfont);
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+.product-info div p:nth-child(2){
+    font-weight: normal;
+    font-size: var(--mediumfont);
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+@media(max-width:1070px){
+    .cards-container{
+    grid-template-columns: repeat(auto-fill, 160px);
+    gap: 35px;
+    padding-top: 25px;
+    
+}
+.product-card{
+    width: 160px;
+}
+
+.product-card img{
+    width: 160px;
+    height: 160px;
+
+}
 }
 
 @media (max-width: 640px) {
