@@ -10,10 +10,10 @@ const desktopMenu = document.querySelector(".desktop-menu");
 const inact = document.querySelector(".inactive");
 
 function activarMenu() {
-    let isMenuCarritoInactivo = menuCarrito.classList.contains("containerInactive");
+    let isMenuCarritoInactivo = shoppingCartContainer.classList.contains("containerInactive");
 
     if (!isMenuCarritoInactivo) {
-        menuCarrito.classList.add("containerInactive")
+        shoppingCartContainer.classList.add("containerInactive")
     }
     desktopMenu.classList.toggle("inactive");
 }
@@ -35,10 +35,10 @@ const menuIconoMobile = document.querySelector(".menu");
 menuIconoMobile.addEventListener("click", activarMenu2);
 
 function activarMenu2() {
-    let isMenuCarritoInactivo = menuCarrito.classList.contains("containerInactive");
+    let isMenuCarritoInactivo = shoppingCartContainer.classList.contains("containerInactive");
 
     if (!isMenuCarritoInactivo) {
-        menuCarrito.classList.add("containerInactive")
+        shoppingCartContainer.classList.add("containerInactive")
     }
     menuMobileCategorias.classList.toggle("containerInactive");
 }
@@ -47,7 +47,7 @@ function activarMenu2() {
 derecha de la pantalla en donde se encuentran los productos que han sido agregados */
 
 
-const menuCarrito = document.querySelector(".product-detail");
+const shoppingCartContainer = document.querySelector("#shoppingCartContainer");
 const iconoCarrito = document.querySelector(".navbar-shopping-cart");
 iconoCarrito.addEventListener("click", mostrarMenuCarrito);
 
@@ -61,7 +61,7 @@ function mostrarMenuCarrito() {
         desktopMenu.classList.add("inactive");
     }
 
-    menuCarrito.classList.toggle("containerInactive")
+    shoppingCartContainer.classList.toggle("containerInactive");
 }
 
 
@@ -77,7 +77,7 @@ class Productos {
         this.agregar = agregar;
     }
 }
-let producto1 = new Productos("https://m.media-amazon.com/images/I/61DYLoyNRWL._AC_SX679_.jpg", "334,99", "AMD Ryzen 7 5800X 8-core, 16-Thread Unlocked Desktop Processor", "icons/i.svg");
+let producto1 = new Productos("https://m.media-amazon.com/images/I/61DYLoyNRWL._AC_SX679_.jpg", "334,99", "AMD Ryzen 7 5800X 8-core, 16-Thread Unlocked Desktop Processor", "icons/bt_add_to_cart.svg");
 
 let producto2 = new Productos("https://m.media-amazon.com/images/I/61vGQNUEsGL._AC_SX679_.jpg", "217,99", "AMD Ryzen 5 5600X 6-core, 12-Thread Unlocked Desktop Processor with Wraith Stealth Cooler", "icons/bt_add_to_cart.svg");
 
@@ -197,8 +197,10 @@ productList.forEach((producto) => {
         <div>
             <p>${producto.precio}</p>
             <p>${producto.descripcion}</p>
-
         </div>
+        <figure>
+        <img src= ${producto.agregar} alt="add to cart">
+        </figure>
     </div>
 </div>
     `
