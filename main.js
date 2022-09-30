@@ -210,7 +210,7 @@ productList.forEach((producto) => {
 
 })
 
-let arregloProductoDetalle = [];
+
 let productDetail = document.querySelector("#productDetail");
 
 let imagenProducto = document.querySelector(".imagen"); let imagenProducto2 = document.querySelector(".imagen2"); let imagenProducto3 = document.querySelector(".imagen3"); let imagenProducto4 = document.querySelector(".imagen4"); let imagenProducto5 = document.querySelector(".imagen5"); let imagenProducto6 = document.querySelector(".imagen6"); let imagenProducto7 = document.querySelector(".imagen7"); let imagenProducto8 = document.querySelector(".imagen8"); let imagenProducto9 = document.querySelector(".imagen9"); let imagenProducto10 = document.querySelector(".imagen10"); let imagenProducto11 = document.querySelector(".imagen11"); let imagenProducto12 = document.querySelector(".imagen12"); let imagenProducto13 = document.querySelector(".imagen13"); let imagenProducto14 = document.querySelector(".imagen14"); let imagenProducto15 = document.querySelector(".imagen15"); let imagenProducto16 = document.querySelector(".imagen16"); let imagenProducto17 = document.querySelector(".imagen17"); let imagenProducto18 = document.querySelector(".imagen18"); let imagenProducto19 = document.querySelector(".imagen19"); let imagenProducto20 = document.querySelector(".imagen20"); let imagenProducto21 = document.querySelector(".imagen21"); let imagenProducto22 = document.querySelector(".imagen22"); let imagenProducto23 = document.querySelector(".imagen23"); let imagenProducto24 = document.querySelector(".imagen24"); let imagenProducto25 = document.querySelector(".imagen25"); let imagenProducto26 = document.querySelector(".imagen26"); let imagenProducto27 = document.querySelector(".imagen27"); let imagenProducto28 = document.querySelector(".imagen28"); let imagenProducto29 = document.querySelector(".imagen29"); let imagenProducto30 = document.querySelector(".imagen30"); let imagenProducto31 = document.querySelector(".imagen31"); let imagenProducto32 = document.querySelector(".imagen32"); let imagenProducto33 = document.querySelector(".imagen33"); let imagenProducto34 = document.querySelector(".imagen34"); let imagenProducto35 = document.querySelector(".imagen35"); let imagenProducto36 = document.querySelector(".imagen36"); let imagenProducto37 = document.querySelector(".imagen37"); let imagenProducto38 = document.querySelector(".imagen38"); let imagenProducto39 = document.querySelector(".imagen39"); let imagenProducto40 = document.querySelector(".imagen40"); let imagenProducto41 = document.querySelector(".imagen41"); let imagenProducto42 = document.querySelector(".imagen42");
@@ -222,7 +222,7 @@ let imagenProducto43 = document.querySelector(".imagen43"); let imagenProducto44
 imagenProducto.addEventListener("click", imprimirDetalle.bind(null, imagenProducto)); imagenProducto2.addEventListener("click", imprimirDetalle.bind(null, imagenProducto2)); imagenProducto3.addEventListener("click", imprimirDetalle.bind(null, imagenProducto3)); imagenProducto4.addEventListener("click", imprimirDetalle.bind(null, imagenProducto4)); imagenProducto5.addEventListener("click", imprimirDetalle.bind(null, imagenProducto5)); imagenProducto6.addEventListener("click", imprimirDetalle.bind(null, imagenProducto6)); imagenProducto7.addEventListener("click", imprimirDetalle.bind(null, imagenProducto7)); imagenProducto8.addEventListener("click", imprimirDetalle.bind(null, imagenProducto8)); imagenProducto9.addEventListener("click", imprimirDetalle.bind(null, imagenProducto9)); imagenProducto10.addEventListener("click", imprimirDetalle.bind(null, imagenProducto10)); imagenProducto11.addEventListener("click", imprimirDetalle.bind(null, imagenProducto11)); imagenProducto12.addEventListener("click", imprimirDetalle.bind(null, imagenProducto12)); imagenProducto13.addEventListener("click", imprimirDetalle.bind(null, imagenProducto13)); imagenProducto14.addEventListener("click", imprimirDetalle.bind(null, imagenProducto14)); imagenProducto15.addEventListener("click", imprimirDetalle.bind(null, imagenProducto15)); imagenProducto16.addEventListener("click", imprimirDetalle.bind(null, imagenProducto16)); imagenProducto17.addEventListener("click", imprimirDetalle.bind(null, imagenProducto17)); imagenProducto18.addEventListener("click", imprimirDetalle.bind(null, imagenProducto18)); imagenProducto19.addEventListener("click", imprimirDetalle.bind(null, imagenProducto19)); imagenProducto20.addEventListener("click", imprimirDetalle.bind(null, imagenProducto20)); imagenProducto21.addEventListener("click", imprimirDetalle.bind(null, imagenProducto21)); imagenProducto22.addEventListener("click", imprimirDetalle.bind(null, imagenProducto22)); imagenProducto23.addEventListener("click", imprimirDetalle.bind(null, imagenProducto23)); imagenProducto24.addEventListener("click", imprimirDetalle.bind(null, imagenProducto24)); imagenProducto25.addEventListener("click", imprimirDetalle.bind(null, imagenProducto25)); imagenProducto26.addEventListener("click", imprimirDetalle.bind(null, imagenProducto26)); imagenProducto27.addEventListener("click", imprimirDetalle.bind(null, imagenProducto27)); imagenProducto28.addEventListener("click", imprimirDetalle.bind(null, imagenProducto28));
 imagenProducto29.addEventListener("click", imprimirDetalle.bind(null, imagenProducto29)); imagenProducto30.addEventListener("click", imprimirDetalle.bind(null, imagenProducto30)); imagenProducto31.addEventListener("click", imprimirDetalle.bind(null, imagenProducto31)); imagenProducto32.addEventListener("click", imprimirDetalle.bind(null, imagenProducto32)); imagenProducto33.addEventListener("click", imprimirDetalle.bind(null, imagenProducto33)); imagenProducto34.addEventListener("click", imprimirDetalle.bind(null, imagenProducto34)); imagenProducto35.addEventListener("click", imprimirDetalle.bind(null, imagenProducto35)); imagenProducto36.addEventListener("click", imprimirDetalle.bind(null, imagenProducto36)); imagenProducto37.addEventListener("click", imprimirDetalle.bind(null, imagenProducto37)); imagenProducto38.addEventListener("click", imprimirDetalle.bind(null, imagenProducto38)); imagenProducto39.addEventListener("click", imprimirDetalle.bind(null, imagenProducto39)); imagenProducto40.addEventListener("click", imprimirDetalle.bind(null, imagenProducto40)); imagenProducto41.addEventListener("click", imprimirDetalle.bind(null, imagenProducto41)); imagenProducto42.addEventListener("click", imprimirDetalle.bind(null, imagenProducto42));
 imagenProducto43.addEventListener("click", imprimirDetalle.bind(null, imagenProducto43));
-imagenProducto44.addEventListener("click", imprimirDetalle.bind(null, imagenProducto44)); imagenProducto45.addEventListener("click", imprimirDetalle.bind(null, imagenProducto45)); imagenProducto46.addEventListener("click", imprimirDetalle.bind(null, imagenProducto46)); imagenProducto47.addEventListener("click", imprimirDetalle.bind(null, imagenProducto47)); imagenProducto48.addEventListener("click", imprimirDetalle.bind(null, imagenProducto48)); imagenProducto49.addEventListener("click", imprimirDetalle.bind(null, imagenProducto49)); imagenProducto50.addEventListener("click", imprimirDetalle.bind(null, imagenProducto50)); imagenProducto51.addEventListener("click", imprimirDetalle.bind(null, imagenProducto51)); imagenProducto52.addEventListener("click", imprimirDetalle.bind(null, imagenProducto52)); imagenProducto53.addEventListener("click", imprimirDetalle.bind(null, imagenProducto53));imagenProducto54.addEventListener("click", imprimirDetalle.bind(null, imagenProducto54));
+imagenProducto44.addEventListener("click", imprimirDetalle.bind(null, imagenProducto44)); imagenProducto45.addEventListener("click", imprimirDetalle.bind(null, imagenProducto45)); imagenProducto46.addEventListener("click", imprimirDetalle.bind(null, imagenProducto46)); imagenProducto47.addEventListener("click", imprimirDetalle.bind(null, imagenProducto47)); imagenProducto48.addEventListener("click", imprimirDetalle.bind(null, imagenProducto48)); imagenProducto49.addEventListener("click", imprimirDetalle.bind(null, imagenProducto49)); imagenProducto50.addEventListener("click", imprimirDetalle.bind(null, imagenProducto50)); imagenProducto51.addEventListener("click", imprimirDetalle.bind(null, imagenProducto51)); imagenProducto52.addEventListener("click", imprimirDetalle.bind(null, imagenProducto52)); imagenProducto53.addEventListener("click", imprimirDetalle.bind(null, imagenProducto53)); imagenProducto54.addEventListener("click", imprimirDetalle.bind(null, imagenProducto54));
 
 
 
@@ -234,7 +234,7 @@ function imprimirDetalle(imagenP) {
             productosLista = `
         
             <div class="product-detail-close">
-            <img src="icons/icon_close.png" alt="close">
+            <img src="icons/icon_close.png" class="close-icon" alt="close">
             
             </div>
             <img src= ${productList[i].imagen} alt="">
@@ -259,12 +259,20 @@ function imprimirDetalle(imagenP) {
             break;
         }
     }
+
 }
 let seleccionador = document.querySelectorAll("#general");
-seleccionador.forEach(function (p) {
+seleccionador.forEach(function (p, g) {
     p.addEventListener("click", function () {
         productDetail.classList.remove("inactive");
+        let seleccionadorCerrar = document.querySelector(".close-icon");
+        console.log(seleccionadorCerrar)
+        seleccionadorCerrar.addEventListener("click", function () {
+            productDetail.classList.add("inactive");
+        });
     });
 });
+
+
 
 

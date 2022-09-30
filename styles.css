@@ -108,6 +108,9 @@ nav {
 .inactive {
     display: none;
 }
+.active {
+    display: block;
+}
 
 .desktop-menu {
     position: absolute;
